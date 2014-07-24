@@ -1,8 +1,9 @@
 # Codebook for Coursera Getting and Cleaning Data Programming Assignment 
+
 ----------
 
-## Description
 
+## Description
 This is the code book for the programming assignment of Coursera's 'Getting and Cleaning Data' Online learning course.
 This document describes all variables used as result of a cleaning up a Human Activity Recognition Using Smartphones Data Set.
 
