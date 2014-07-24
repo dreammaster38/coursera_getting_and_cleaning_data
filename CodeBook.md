@@ -18,14 +18,14 @@ This document describes all variables used as result of a cleaning up a Human Ac
    Storage mode: factor
    Measurement: ordinal
 
-   |id |Values and labels    |N   |Percent|
-   |---|---------------------|----|-------|                                        
-   |1  |'laying'             |30   |16.7  |
-   |2  |'sitting'            |30   |16.7  |
-   |3  |'standing'           |30   |16.7  |
-   |4  |'walking'            |30   |16.7  |
-   |5  |'walkingDownstairs'  |30   |16.7  |
-   |6  |'walkingUpstairs'    |30   |16.7  |
+   |id |Values and labels    |N    |Percent|
+   |:--|:--------------------|:----|:------|                                        
+   |1  |'laying'             |30   |16.7   |
+   |2  |'sitting'            |30   |16.7   |
+   |3  |'standing'           |30   |16.7   |
+   |4  |'walking'            |30   |16.7   |
+   |5  |'walkingDownstairs'  |30   |16.7   |
+   |6  |'walkingUpstairs'    |30   |16.7   |
 
 ============================================================================================
 
