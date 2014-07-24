@@ -19,6 +19,7 @@ This document describes all variables used as result of a cleaning up a Human Ac
    Measurement: ordinal
 
 
+
    |id |Values and labels    |N    |Percent|
    |---|---------------------|-----|-------|                                        
    |1  |'laying'             |30   |16.7   |
