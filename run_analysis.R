@@ -1,6 +1,6 @@
 ###
 # Coursera, Getting And Cleaning Daza,
-# Programming Assignment, July 2014
+# Programming Assignment, July 2014, by Thomas Guenther
 ###
 
 # load libraries
