@@ -1,5 +1,4 @@
 # Codebook for Coursera Getting and Cleaning Data Programming Assignment 
-
 ----------
 
 
