@@ -20,8 +20,8 @@ This document describes all variables used as result of a cleaning up a Human Ac
 
 
 
-   |id |Values and labels    |N    |Percent|
-   |---|---------------------|-----|-------|                                        
+|id |Values and labels    |N    |Percent|
+|---|---------------------|-----|-------|                                        
    |1  |'laying'             |30   |16.7   |
    |2  |'sitting'            |30   |16.7   |
    |3  |'standing'           |30   |16.7   |
