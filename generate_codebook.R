@@ -1,9 +1,8 @@
 library(memisc)
 library(knitr)
 library(plyr)
-#library(psych)
-# describe.by from psych pack
 
+# load the tidy data set
 tidyData <- read.table("uci_har_tidy_dataset.txt")
 # remove activity and performerId columns to appply range function in the next step
 tidyData2 <- subset(tidyData, select= -c(activity, performerId))
@@ -14,19 +13,17 @@ minAndMax <- data.frame(t(minAndMax))
 # remove unnecessary row
 minAndMax <- minAndMax[-1,]
 
-meanValue <- ddply(tidyData2, tidyData2$names, colwise(mean))
-stdValue <- ddply(tidyData2, tidyData2$names, colwise(sd))
+# old approach
+#fearureDataType <- rep("double", length(tidyData2))
+#minAndMax <- cbind(names(tidyData2), c(3:68), fearureDataType, minAndMax)
+#colnames(minAndMax) <- c("featureName", "columIndex", "fearureDataType", "minValue", "maxValue")
+#rownames(minAndMax) <- NULL
+#kable(minAndMax, format = "markdown")
 
-fearureDataType <- rep("double", length(tidyData2))
-minAndMax <- cbind(names(tidyData2), c(3:68), fearureDataType, minAndMax)
-colnames(minAndMax) <- c("featureName", "columIndex", "fearureDataType", "minValue", "maxValue")
-rownames(minAndMax) <- NULL
-
-kable(minAndMax, format = "markdown")
-
-
+# create a data set out of the data frame
 tidyData <- data.set(tidyData)
-
+# define descriptions for all variables before
+# creating the code book
 tidyData <- within(tidyData,{
   description(tidyData.activity) <- "The activities a volunteer took"
   description(tidyData.performerId) <- "An ID describing volunteers with a range of age between 19 and 48 years."
@@ -100,5 +97,7 @@ tidyData <- within(tidyData,{
   measurement(tidyData.activity) <- "ordinal"
 })
 
+# capture the genereated codebook output and write
+# the code book fragment out to disk
 cb <- codebook(tidyData)
-capture.output(cb, file="code_book.md")
+capture.output(cb, file="code_book_fragment.md")
