@@ -1,4 +1,4 @@
-Codebook for Coursera Getting and Cleaning Data Programming Assignment 
+Coursera Getting and Cleaning Data Programming Assignment 
 ----------
 
 #### Cleanup a Human Activity Recognition Using Smartphones Data Set
