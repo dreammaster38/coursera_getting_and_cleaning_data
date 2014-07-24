@@ -57,7 +57,7 @@ I have included all features with mean() and std() into my cleaned up data set. 
 For a real use of the data set the role for most of the features should be clarified via the given e-mail address.
 The data sets have the following dimensions:
 
-|Data Set                                                                             |Dimension (rows x cols)|
+|Data Set                                                                             |Data setDimensions     |
 |-------------------------------------------------------------------------------------|-----------------------|
 |base data set (raw test- and training-sets combined)                                 |10299x561              |
 |filtered data set by mean() and std(), activity- and performer-columns added         |10299x68               |
