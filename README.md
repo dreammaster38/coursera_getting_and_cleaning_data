@@ -47,7 +47,7 @@ The original data set was created as follows:
 
 # Description of the features:
 
-For the description of the features see the accordingly code book: [https://github.com/dreammaster38/coursera_getting_and_cleaning_data](https://github.com/dreammaster38/coursera_getting_and_cleaning_data "Code book for Courseras Getting and Cleaning Data")
+For the description of the features see the accordingly code book: [https://github.com/dreammaster38/coursera_getting_and_cleaning_data/blob/master/CodeBook.md](https://github.com/dreammaster38/coursera_getting_and_cleaning_data/blob/master/CodeBook.md "Code book for Courseras Getting and Cleaning Data")
 
 # Data set transformations
 
