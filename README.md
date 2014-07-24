@@ -49,10 +49,11 @@ The original data set was created as follows:
 
 For the description of the features see the accordingly code book: [https://github.com/dreammaster38/coursera_getting_and_cleaning_data/blob/master/CodeBook.md](https://github.com/dreammaster38/coursera_getting_and_cleaning_data/blob/master/CodeBook.md "Code book for Courseras Getting and Cleaning Data")
 
-# Contained scripts
+# Contained scripts and data sets
 `run_analysis.R`: This script contains the logic to merging and tidying up the provided data set.
 `generate_codebook.R`: A little helper script to generate a code book fragment, which was used to create the final code book
- 
+`uci_har_dataset_merged.txt`: The cleaned up and merged data set
+`uci_har_tidy_dataset.txt`: A tidy data set containing the average of each feature for each activity and each performer
 # Data set transformations
 
 The original data set was transformed in several ways. This section describes the important steps taken to cleanup the data set and the steps taken to create a tidy data set.
